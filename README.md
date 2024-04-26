@@ -9,10 +9,15 @@ The objective of brain tumor classification is to accurately predict the type of
 Our proposed methodology based on the DNN learning architecture for classification where the classifier is identifying the brain tumors in brain MRIs. The proposed methodology for classifying the brain tumors in brain MRIs is as follows: 
 
 Step 1: Brain MRIs Dataset acquisition
+
 Step 2: Convert into Grayscale
+
 Step 3: Denoise using Gaussian Filter
+
 Step 4: Creating Augmented Image
+
 Step 5: Classification using VGG16
+
 Step 6: Evaluation 
 
 # 1.	Data Acquisition 
@@ -52,4 +57,11 @@ After the features are extracted and selected, the classification step using VGG
 Instead of having a large number of hyper-parameters, VGG16 uses convolution layers with a 3x3 filter and a stride 1 that are in the same padding and maxpool layer of 2x2 filter of stride 2. It follows this arrangement of convolution and max pool layers consistently throughout the whole architecture. In the end it has two fully connected layers, followed by a softmax for output. In VGG16, ‘VGG’ refers to the Visual Geometry Group of the University of Oxford, while the ‘16’ refers to the network’s 16 layers that have weights. This network is a pretty large network, and it has about 138 million parameters.
 Image enhancement boosts network performance by purposely creating more training data from original data. The input image of the VGG 16 Network had a size of 224. Thus, the training dataset was used to resize our data and make it more suitable for the process of classification. It is a procedure that is used throughout DL to aid in the creation of samples. It also optimizes the network’s efficiency for a relatively small dataset. The images were altered to add variance to account for the dataset’s small size. As a result, image extensions were used to increase the variability within our constrained dataset by collecting Keras Image Data Generator when training. 
 
-
+# FUTURE ENHANCEMENT
+Future enhancements for brain tumor classification can focus on several avenues to improve accuracy, efficiency, and clinical utility. Here are some potential directions for advancement:
+•	Multi-Modal Fusion: Integrating multiple imaging modalities, such as MRI, CT, and histopathology images, can provide complementary information about brain tumors. Developing models capable of fusing information from different modalities could improve classification accuracy and enable more comprehensive tumor characterization.
+•	Attention Mechanisms: Incorporating attention mechanisms into neural network architectures can enhance the model's ability to focus on relevant regions within the input images. Attention-based models could prioritize informative features and reduce reliance on irrelevant or noisy regions, leading to more precise tumor classification.
+•	Explainable AI (XAI): Enhancing the interpretability of classification models through XAI techniques can increase trust and understanding among clinicians. Methods such as saliency maps, attention visualization, and decision explanations help elucidate the model's reasoning process, enabling clinicians to validate predictions and gain insights into tumor characteristics.
+•	Weakly Supervised Learning: Leveraging weakly supervised learning approaches, such as multiple instance learning (MIL) or self-supervised learning, can alleviate the need for pixel-level annotations in large-scale datasets. These techniques enable models to learn from weak labels or unlabeled data, facilitating scalability and reducing annotation burden.
+•	Transfer Learning with Pre-trained Models: Continuously exploring transfer learning strategies with pre-trained models on diverse datasets (e.g., medical imaging repositories, cross-domain data) can enhance model generalization and adaptability to new tumor types or imaging modalities. Fine-tuning pre-trained models or developing domain-adaptive learning techniques can further improve performance on specific clinical tasks.
+•	Real-Time Deployment and Edge Computing: Optimizing models for real-time deployment on edge devices or cloud platforms can facilitate rapid diagnosis and decision-making in clinical settings. Developing lightweight architectures, model compression techniques, and hardware-accelerated inference pipelines can enable efficient deployment while maintaining high classification accuracy.
