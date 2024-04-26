@@ -23,14 +23,14 @@ c)	Pituitary: A pituitary tumor is an abnormal growth or mass that develops in t
 d)	No tumor: Normal brain mri.
 
 ![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/6c4b89e2-5826-4ebc-897a-69415a02584a)
-(a)
-![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/bc73bfc3-4464-46bc-9c22-610bdb3aa77d)
-(b)
-![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/f3d98a0c-c7c1-419e-ad18-e9014e02bbb5)
-(c)
-![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/ddbcec31-d12a-449f-bb9b-6c9bf0d5d9a0)
-(d)
 
+![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/bc73bfc3-4464-46bc-9c22-610bdb3aa77d)
+
+![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/f3d98a0c-c7c1-419e-ad18-e9014e02bbb5)
+
+![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/ddbcec31-d12a-449f-bb9b-6c9bf0d5d9a0)
+
+(a)                                         (b)                                            (c)                                          (d)
    
 The dataset consists of 3000 training data and 1500 testing data of real human brain MRIs with normal and abnormal images which are glioblastoma, pituitary, meningioma tumors and no tumor collected from Kaggle. All the brain MRIs was in axial plane, T2-weighted and 256 x 256 pixel. A sample of the dataset is illustrated in the above figure.
 
