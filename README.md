@@ -3,7 +3,7 @@
 Brain tumors are a major global health concern that require early and precise diagnosis in order to effectively treat. This work offers a novel method for classifying brain tumors using deep learning methods. Deep Learning is a new machine learning field that gained a lot of interest over the past few years. It was widely applied to several applications and proven to be a powerful machine learning tool for many of the complex problem. In this paper we used Deep Neural Network classifier which is one of the DL architectures for classifying a dataset MRIs into 4 classes e.g. normal, glioma, meningioma and pituitary tumors. Magnetic resonance imaging (MRI) and computed tomography (CT) scans are two of the many medical imaging modalities included in the dataset used for training and evaluation. The classifier was combined with the grayscaling and denoising after which VGG-16 model is built and the evaluation of the performance was quite good over all the performance measures.
 
 # OBJECTIVE
-          The objective of brain tumor classification is to accurately predict the type of tumor. This classification is essential for developing personalized treatment plans. Different types of brain tumors respond differently to treatment, and an accurate classification helps medical professionals tailor treatment plans to each patient’s unique needs. Additionally, early detection through accurate classification can lead to higher treatment success rates and improved patient outcomes. Brain tumors can be accurately classified, aiding doctors in choosing the best course of treatment, such as surgery, radiation therapy, or chemotherapy. Furthermore, research efforts aim to address challenges related to variations in tumor location, shape, and size, ultimately improving the accuracy of brain tumor classification.
+The objective of brain tumor classification is to accurately predict the type of tumor. This classification is essential for developing personalized treatment plans. Different types of brain tumors respond differently to treatment, and an accurate classification helps medical professionals tailor treatment plans to each patient’s unique needs. Additionally, early detection through accurate classification can lead to higher treatment success rates and improved patient outcomes. Brain tumors can be accurately classified, aiding doctors in choosing the best course of treatment, such as surgery, radiation therapy, or chemotherapy. Furthermore, research efforts aim to address challenges related to variations in tumor location, shape, and size, ultimately improving the accuracy of brain tumor classification.
 
 # METHODOLOGY
 Our proposed methodology based on the DNN learning architecture for classification where the classifier is identifying the brain tumors in brain MRIs. The proposed methodology for classifying the brain tumors in brain MRIs is as follows: 
@@ -22,14 +22,14 @@ b)	Meningioma: Meningioma tumors arise from the meninges, the protective membran
 c)	Pituitary: A pituitary tumor is an abnormal growth or mass that develops in the pituitary gland, a small gland located at the base of the brain..
 d)	No tumor: Normal brain mri.
 
-                ![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/6c4b89e2-5826-4ebc-897a-69415a02584a)
-                                                                        (a)
-                ![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/bc73bfc3-4464-46bc-9c22-610bdb3aa77d)
-                                                                        (b)
-                ![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/f3d98a0c-c7c1-419e-ad18-e9014e02bbb5)
-                                                                        (c)
-                ![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/ddbcec31-d12a-449f-bb9b-6c9bf0d5d9a0)
-                                                                        (d)
+![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/6c4b89e2-5826-4ebc-897a-69415a02584a)
+(a)
+![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/bc73bfc3-4464-46bc-9c22-610bdb3aa77d)
+(b)
+![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/f3d98a0c-c7c1-419e-ad18-e9014e02bbb5)
+(c)
+![image](https://github.com/remona19/brain-tumor-classification/assets/147992703/ddbcec31-d12a-449f-bb9b-6c9bf0d5d9a0)
+(d)
 
    
 The dataset consists of 3000 training data and 1500 testing data of real human brain MRIs with normal and abnormal images which are glioblastoma, pituitary, meningioma tumors and no tumor collected from Kaggle. All the brain MRIs was in axial plane, T2-weighted and 256 x 256 pixel. A sample of the dataset is illustrated in the above figure.
